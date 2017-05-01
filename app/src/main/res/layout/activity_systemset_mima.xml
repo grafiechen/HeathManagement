@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="系统设置页面"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:gravity="center"
+        android:id="@+id/textView2" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:layout_weight="0.99"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_weight="0.01">
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:text="原密码:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:gravity="right"
+                android:layout_weight="1.15" />
+
+            <EditText
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:background="@drawable/shape"
+                android:shadowColor="#111111"
+                android:id="@+id/editText5" />
+
+            <TextView
+                android:text="                           "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="41dp">
+
+            <TextView
+                android:text="新密码:"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:id="@+id/textView4"
+                android:layout_weight="0.33" />
+
+            <EditText
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@drawable/shape"
+                android:id="@+id/editText3"
+                android:layout_weight="0.01" />
+
+            <TextView
+                android:text="                           "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15" />
+        </LinearLayout>
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <TextView
+            android:text="重复密码:"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:id="@+id/textView7"
+            android:layout_weight="1.15" />
+
+        <EditText
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:id="@+id/editText8" />
+            <TextView
+                android:text="                           "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView25" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="61dp">
+            <TextView
+                android:text="                                          "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView45" />
+            <Button
+                android:text="确认"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:layout_weight="0.44" />
+            <TextView
+            android:text="                                   "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView95" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="67dp">
+
+        <Button
+            android:text="主页面"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button10"
+            android:layout_weight="0.20" />
+
+        <Button
+            android:text="测试工具"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button11"
+            android:layout_weight="0.20" />
+
+        <Button
+            android:text="生活助手"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button13"
+            android:layout_weight="0.20" />
+
+        <Button
+            android:text="健康档案"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button12"
+            android:layout_weight="0.20" />
+    </LinearLayout>
+</LinearLayout>
