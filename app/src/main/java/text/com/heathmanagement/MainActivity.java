@@ -1,17 +1,16 @@
 package text.com.heathmanagement;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.SubMenu;
+import android.os.Handler;
 
-public class MainActivity extends AppCompatActivity {
+/**
+ * Created by 陈锦鹏 on 2017/5/5.
+ */
 
-    @Override
+public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_main);
     }
 }

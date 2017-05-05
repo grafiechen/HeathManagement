@@ -1,6 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/bg_bmi"
+    android:weightSum="1">
+
+    <TextView
+        android:text="BMI计算器"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:text="@string/tip1_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:id="@+id/textView14" />
+    <TextView
+        android:text="@string/tip2_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_weight="0.03" />
+    <TextView
+        android:text="@string/tip3_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.05" />
+    <TextView
+        android:text="@string/tip4_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_weight="0.05" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="155dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="29dp">
+
+            <TextView
+                android:text="体重(KG)："
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:id="@+id/textView17"
+                android:layout_weight="0.29" />
+
+            <EditText
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="请输入体重单位：KG"
+
+                android:ems="10"
+                android:background="#fff"
+                android:id="@+id/zhongliang" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="29dp">
+
+            <TextView
+                android:text="身高(M)："
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:id="@+id/textView127"
+                android:layout_weight="0.29" />
+
+            <EditText
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="请输入身高单位：M"
+                android:ems="10"
+                android:background="#fff"
+                android:id="@+id/shengao"
+                android:layout_weight="0.02" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="29dp">
+
+            <TextView
+                android:text="BMI指数："
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:id="@+id/textView8"
+                android:layout_weight="0.29" />
+
+            <TextView
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:ems="10"
+                android:background="#fff"
+                android:id="@+id/jieguo_BMI"
+                android:layout_weight="0.02" />
+
+        </LinearLayout>
+
+        <Button
+            android:text="点击计算"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="bmiJiSuan"
+            android:id="@+id/button14" />
+    </LinearLayout>
 
 </LinearLayout>

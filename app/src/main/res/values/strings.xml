@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">健康管理系统</string>
+    <string name="tip1_bmi">BMI是与体内脂肪总量密切相关的指标,该指标考虑了体重和身高两个因素。BMI简
+        单、实用、可反映全身性超重和肥胖。 在测量身体因超重而面临心脏病、高血压等风险时，比单纯的以
+        体重来认定，更具准确性。</string>
+    <string name="tip2_bmi">体质指数（BMI）=体重（KG）/身高（M^2）。</string>
+    <string name="tip3_bmi">成人的BMI数值：1.过轻：低于18.5 ;2.正常：18.5-24.99 ;3. 过重：25-28
+        4. 肥胖：28-32 ;5.非常肥胖, 高于32
+    </string>
+    <string name="tip4_bmi">并不是每个人都适用BMI的，如：
+        1. 未满18岁；
+        2. 是运动员；
+        3. 正在做重量训练；
+        4. 怀孕或哺乳中；
+        5. 身体虚弱或久坐不动的老人。
+    </string>
 </resources>
