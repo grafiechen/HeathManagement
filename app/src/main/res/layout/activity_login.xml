@@ -1,45 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:id="@+id/login"
     android:layout_height="match_parent">
-
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/pic_login"
-            android:id="@+id/login_pic"
-            android:weightSum="1">
-        </LinearLayout>
-
         <TextView
-            android:text="请输入密码："
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_marginStart="23dp"
-            android:id="@+id/textView17"
-            android:layout_marginTop="16dp"
-            android:layout_below="@+id/login_pic"
-            android:layout_alignParentStart="true" />
+            android:text="欢迎使用健康管理系统"
 
-        <EditText
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="numberPassword"
-            android:ems="10"
-            android:id="@+id/editText10"
-            android:layout_alignBaseline="@+id/textView17"
-            android:layout_alignBottom="@+id/textView17"
-            android:layout_toEndOf="@+id/textView17" />
-
+            android:layout_height="200dp"
+            android:id="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
     </RelativeLayout>
 </LinearLayout>
