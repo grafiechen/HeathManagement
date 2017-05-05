@@ -11,20 +11,7 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    sourceSets{
-        main{
-            res.srcDirs = [
-                    'src/main/res/layout/onlion',
-                    'src/main/res/layout/systemset',
-                    'src/main/res/layout/zhushou',
-                    'src/main/res/layout/ceshi',
-                    'src/main/res/layout/fenxi',
-                    'src/main//reslayout/dangan',
-                    'src/main/res/layout',
-                    'src/main/res'
-            ]
-        }
-    }
+
     buildTypes {
         release {
             minifyEnabled false
